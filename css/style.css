@@ -748,41 +748,41 @@ background-size: cover;
 
   @media (max-width: 1200px) {
     * {
-      background-color: red;
+/*       background-color: red; */
 
-      display:grid;
+      display:flex;
 
     }
     body{
         width: auto;
     }
 
-    section {
+/*     section {
       min-height: 100vh;
       padding: 10rem 9% 2rem;
 
       animation: fadein 1s;
-    }
+    } */
 
   }
 
   @media (max-width: 1056px) {
     * {
 /*       background-color: rgb(11, 4, 4); */
-      display:grid;
+      display:flex;
     }
   }
 
   @media (max-width: 750px) {
     * {
 /*       background-color: rgb(11, 157, 45); */
-      display:grid;
+      display:flex;
     }
   }
 
   @media (max-width: 450px) {
     * {
-      display:grid;
+      display:flex;
       fontsize: 2rem;
 /*       background-color: rgb(52, 13, 137); */
     }
