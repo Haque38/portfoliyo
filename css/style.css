@@ -748,27 +748,15 @@ background-size: cover;
 
   @media (max-width: 1200px) {
     * {
-/*       background-color: red; */
-
       display:flex;
-
     }
     body{
         width: auto;
     }
-
-/*     section {
-      min-height: 100vh;
-      padding: 10rem 9% 2rem;
-
-      animation: fadein 1s;
-    } */
-
   }
 
   @media (max-width: 1056px) {
     * {
-/*       background-color: rgb(11, 4, 4); */
       display:flex;
     }
   }
