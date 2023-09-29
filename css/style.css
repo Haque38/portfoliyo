@@ -768,19 +768,22 @@ background-size: cover;
 
   @media (max-width: 1056px) {
     * {
-      background-color: rgb(11, 4, 4);
+/*       background-color: rgb(11, 4, 4); */
       display:grid;
     }
   }
 
   @media (max-width: 750px) {
     * {
-      background-color: rgb(11, 157, 45);
+/*       background-color: rgb(11, 157, 45); */
+      display:grid;
     }
   }
 
   @media (max-width: 450px) {
     * {
-      background-color: rgb(52, 13, 137);
+      display:grid;
+      fontsize: 2rem;
+/*       background-color: rgb(52, 13, 137); */
     }
   }
